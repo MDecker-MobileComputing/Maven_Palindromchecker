@@ -24,7 +24,7 @@ public class PalindromChecker {
         }
         
         final int laenge           = palindromNormalized.length();
-        final int anzahlVergleiche = laenge / 2;
+        final int anzahlVergleiche = laenge / 2; // int-Division, deshalb wird evtl. Nachkommastelle .5 abgeschnitten
         
         for (int i = 0; i < anzahlVergleiche; i++) {
             

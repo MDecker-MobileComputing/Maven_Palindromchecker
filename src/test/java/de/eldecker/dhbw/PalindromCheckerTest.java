@@ -7,10 +7,11 @@ import static org.junit.jupiter.api.Assertions.fail;
 
 import org.junit.jupiter.api.Test;
 
+import de.eldecker.dhbw.palindromchecker.PalindromChecker;
 import de.eldecker.dhbw.palindromchecker.PalindromCheckerException;
 
 /**
- * Unit-Tests für Methode {@code istPalindrom()} aus Klasse {@code PalindromChecker}.
+ * Unit-Tests für Methode {@link PalindromChecker#istPalindrom(String)}.
  */
 public class PalindromCheckerTest {
 
