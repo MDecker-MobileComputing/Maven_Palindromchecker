@@ -47,8 +47,7 @@ public class PalindromCheckerTest {
     @Test
     void keinPalindrom() throws Exception {
     	
-    	assertFalse( istPalindrom("abc"));
-    	
+    	assertFalse( istPalindrom("abc"));    	
     	assertFalse( istPalindrom("axya"));
     }
     
