@@ -6,8 +6,10 @@ public class PalindromChecker {
      * String {@code palindrom} daraufhin überprüfen, ob es sich um ein Wortpalindrom (z.B. "Otto") handelt.
      * Die Groß-/Kleinschreibung wird hierbei ignoriert.
      * 
-     * @param palindrom String, der auf Palindromeigenschaft überprüft wird.
+     * @param palindrom String, der auf Palindromeigenschaft überprüft wird
+     * 
      * @return {@code true} gdw. Argument {@code palindrom} ein Palindrom ist 
+     * 
      * @throws PalindromCheckerException Argument {@code palindrom} ist {@code null} oder ein leerer String
      */
     public static boolean istPalindrom(String palindrom) throws PalindromCheckerException {
