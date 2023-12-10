@@ -4,6 +4,7 @@ import static de.eldecker.dhbw.palindromchecker.PalindromChecker.istPalindrom;
 
 public class Main {
     
+
     /**
      * Einstiegsmethode für Palindromcheck.
      * 

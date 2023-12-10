@@ -1,6 +1,6 @@
 
-# Dateien in Ausgabeverzeichnis von Maven ignorieren
+# Verzeichnis, in das Maven seine Ergebnisse schreibt, nicht versionieren
 target/
 
-# Dateien in Konfig-Verzeichnis von Eclipse ignorieren
-.settings
+# Eclipse-Einstellungen ignorieren
+.settings/
