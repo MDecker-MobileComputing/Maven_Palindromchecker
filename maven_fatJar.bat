@@ -1,5 +1,5 @@
 
-@echo.
+@cls
 
 mvnw clean package
 

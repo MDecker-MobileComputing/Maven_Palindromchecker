@@ -2,6 +2,10 @@ package de.eldecker.dhbw.palindromchecker;
 
 import static de.eldecker.dhbw.palindromchecker.PalindromChecker.istPalindrom;
 
+
+/**
+ * Klasse mit {@code main}-Methode, zum Test der Klasse {@link PalindromChecker}. 
+ */
 public class Main {
     
 
@@ -9,7 +13,7 @@ public class Main {
      * Einstiegsmethode für Palindromcheck.
      * 
      * @param args String, der auf Palindromeigenschaft überprüft wird
-     *             (genau ein Wort)
+     *             (genau ein Wort, sonst Programmabbruch)
      */
     public static void main(String[] args) {
                 

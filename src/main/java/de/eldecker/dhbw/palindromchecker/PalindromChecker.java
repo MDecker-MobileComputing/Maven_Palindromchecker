@@ -1,5 +1,8 @@
 package de.eldecker.dhbw.palindromchecker;
 
+/**
+ * Klasse mit Methode zur Durchführung von Palindromchecks.
+ */
 public class PalindromChecker {
 
     /**
