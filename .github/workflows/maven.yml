@@ -19,9 +19,10 @@ jobs:
     - name: FatJar-Datei mit Maven bauen
       run: ./mvnw --batch-mode clean package
     - name: FatJar-Datei veröffentlichen
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v3      
       with:
         name: PalindromChecker_FatJar
         path: target/palindromchecker-*-jar-with-dependencies.jar
         if-no-files-found: error # Default-Wert ist (nur) "warn"; es gibt auch noch "ignore"
+        retention-days: 7
 
