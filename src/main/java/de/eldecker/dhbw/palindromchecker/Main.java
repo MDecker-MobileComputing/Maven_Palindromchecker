@@ -9,20 +9,20 @@ import static de.eldecker.dhbw.palindromchecker.PalindromChecker.istPalindrom;
 public class Main {
 
 
-    /**
-     * Einstiegsmethode für Palindromcheck.
-     * <br><br>
-     *
+   /**
+    * Einstiegsmethode für Palindromcheck.
+    * <br><br>
+    *
     * Die möglichen Programmabbruch-Statuscodes:
     * <ul>
     * <li>0: Das Programm wurde erfolgreich beendet.</li>
     * <li>1: Das Programm wurde mit einer falschen Anzahl von Argumenten aufgerufen.</li>
     * <li>2: Während des Palindrom-Checks ist eine Ausnahme aufgetreten.</li>
     * </ul>
-     *
-     * @param args String, der auf Palindromeigenschaft überprüft wird
-     *             (genau ein Wort, sonst Programmabbruch)
-     */
+    *
+    * @param args String, der auf Palindromeigenschaft überprüft wird
+    *             (genau ein Wort, sonst Programmabbruch)
+    */
     public static void main( String[] args ) {
 
         if ( args.length != 1 ) {
