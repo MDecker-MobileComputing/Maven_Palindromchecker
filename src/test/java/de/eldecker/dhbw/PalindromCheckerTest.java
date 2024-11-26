@@ -10,10 +10,12 @@ import org.junit.jupiter.api.Test;
 import de.eldecker.dhbw.palindromchecker.PalindromChecker;
 import de.eldecker.dhbw.palindromchecker.PalindromCheckerException;
 
+
 /**
  * Unit-Tests für Methode {@link PalindromChecker#istPalindrom(String)}.
  */
 public class PalindromCheckerTest {
+
 
     @Test
     void normalisierung() throws Exception {
@@ -26,7 +28,8 @@ public class PalindromCheckerTest {
         assertTrue( istPalindrom( "  otto" ) );
         assertTrue( istPalindrom(" oTto "  ) );        
     }
-    
+
+
     @Test
     void palindromGeradzahligeLaenge() throws Exception {
     	
@@ -35,7 +38,8 @@ public class PalindromCheckerTest {
     	assertTrue( istPalindrom( "Renner"     ) );
     	assertTrue( istPalindrom( "Lagerregal" ) );
     }
-    
+
+
     @Test
     void palindromUngeradezahligeLaenge() throws Exception {
     	
@@ -44,21 +48,23 @@ public class PalindromCheckerTest {
     	assertTrue( istPalindrom( "Deleveled" ) );
     }
     
+    
     @Test
     void keinPalindrom() throws Exception {
     	
-    	assertFalse( istPalindrom("abc"));    	
-    	assertFalse( istPalindrom("axya"));
+    	assertFalse( istPalindrom( "abc"  ) );    	
+    	assertFalse( istPalindrom( "axya" ) );
     }
+    
     
     @Test
     void leererInput()  {
     	
     	try {
     		
-    		istPalindrom(" ");
+    		istPalindrom( " " );
     		
-    		fail("Keine Exception für leeren Eingabe-String geworfen.");
+    		fail( "Keine Exception für leeren Eingabe-String geworfen." );
     	}
     	catch (PalindromCheckerException ex) {}
     }
