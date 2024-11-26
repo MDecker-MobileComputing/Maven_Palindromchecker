@@ -1,15 +1,14 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" 
+<project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
-  
+
   <modelVersion>4.0.0</modelVersion>
-  
+
   <groupId>de.eldecker.dhbw</groupId>
   <artifactId>palindromchecker</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>jar</packaging>
-    
-   
+
   <url>https://github.com/MDecker-MobileComputing/Maven_Palindromchecker</url>
   <name>Palindromchecker</name>
   <inceptionYear>2023</inceptionYear>
@@ -19,8 +18,8 @@
       <name>BSD 3-Clause License</name>
       <url>https://opensource.org/license/BSD-3-clause/</url>
     </license>
-  </licenses>  
-  
+  </licenses>
+
      <build>
         <plugins>
             <plugin>
@@ -31,7 +30,7 @@
                 -->
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-assembly-plugin</artifactId>
-                <version>3.6.0</version>
+                <version>3.7.1</version>
                 <configuration>
                     <descriptorRefs>
                         <descriptorRef>jar-with-dependencies</descriptorRef>
@@ -54,14 +53,16 @@
             </plugin>
         </plugins>
     </build>
-  
+
   <dependencies>
+
     <dependency>
         <groupId>org.junit.jupiter</groupId>
         <artifactId>junit-jupiter</artifactId>
-        <version>5.10.1</version>
+        <version>5.11.3</version>
         <scope>test</scope>
     </dependency>
 
   </dependencies>
+
 </project>
